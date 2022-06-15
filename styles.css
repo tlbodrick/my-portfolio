@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+input, textarea {
+    margin: 10px;
+    width: 60% !important;
+}
+
+
+textarea {
+    height: 10rem;
+}

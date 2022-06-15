@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/3c48df829b.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script src="script.js"></script>
+    <title>Tamera Bodrick - Frontend Developer</title>
+</head>
+
+<body class="w-2/3 mx-auto">
+    <nav class="w-full pt-10">
+        <ul class="text-custom-blue flex gap-3 justify-end">
+            <li id="home font-bold">Home</li>
+            <a href="#portfolio">
+                <li class="">Portfolio</li>
+            </a>
+            <a href="#profile">
+                <li>About me</li>
+            </a>
+            <a href="#contact-form">
+                <li>Contact</li>
+            </a>
+        </ul>
+    </nav>
+    <header class="pt-10 md:w-3/5 mx-auto">
+        <h1 class="font-bold text-5xl">I'm Tamera,</h1>
+        <p class="text-2xl pt-2"><span class="text-custom-blue">Frontend Developer.</span> I design beautiful,
+            responsive
+            websites with the latest
+            technologies.</p>
+        <div class="pt-5 flex gap-3 items-center w-full">
+            <a href="https://www.linkedin.com/in/tamera-bodrick/"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+            <a href="https://github.com/tlbodrick"><i class="fa-brands fa-github fa-xl"></i></a>
+            <a href="/assets/tlbodrick-portfolio.pdf" class="ml-auto font-bold border-b border-custom-blue" download>
+                <i class="fa-solid fa-paperclip pb-4 pr-2"></i>
+                Download Resume
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div id="portfolio" class="mt-28">
+            <h2 class="text-5xl text-custom-blue font-bold">Latest Projects</h2>
+            <div class="mt-8 flex flex-col md:flex-row justify-center gap-10 flex-wrap">
+                <!-- project -->
+
+                <div class="w-2/5 shrink-0">
+                    <img src=" /assets/chat-app.png" alt="">
+                    <h3 class="text-2xl font-bold text-custom-blue mt-4">Chat App</h3>
+                    <div class="skills mt-2">
+                        <span class="p-1 border border-custom-orange rounded text-xs">HTML</span>
+                        <span class="p-1 border border-custom-orange rounded text-xs">CSS</span>
+                        <span class="p-1 border border-custom-orange rounded text-xs">React.js</span>
+                        <span class="p-1 border border-custom-orange rounded text-xs">Firebase/Firestore</span>
+
+                    </div>
+                    <p class="mt-4">A Discord-inspired chatting app. Users can create channels, create and read messages
+                        from other users, and update their
+                        profile by adding a photo or changing their display name.</p>
+                    <div class="mt-4">
+                        <a href="https://github.com/tlbodrick/chat-app" class="font-bold border-b border-custom-blue"
+                            target="_blank"><i class="fa-solid fa-code mr-2"></i>Code</a>
+                        <a href="https://tlbodrick-chat-app.netlify.app/" class="font-bold border-b border-custom-blue"
+                            target="_blank"><i class="fa-solid fa-check mr-2"></i>Demo</a>
+                    </div>
+                </div>
+
+                <!-- project -->
+                <div class="w-2/5 shrink-0">
+                    <img src="/assets/entertainment-app.png" alt="">
+                    <h3 class="text-2xl font-bold text-custom-blue mt-4">Entertainment Website</h3>
+                    <div class="skills mt-2">
+                        <span class="p-1 border border-custom-orange rounded text-xs">HTML</span>
+                        <span class="p-1 border border-custom-orange rounded text-xs">CSS</span>
+                        <span class="p-1 border border-custom-orange rounded text-xs">React</span>
+                        <span class="p-1 border border-custom-orange rounded text-xs">JSON</span>
+                    </div>
+                    <p class="mt-4">A website that allows users to navigate between Home, Movies, Tv Series, and
+                        Bookmarks
+                        pages. Users can search for a film they want and add and remove bookmarks.</p>
+                    <div class="mt-4">
+                        <a href="https://github.com/tlbodrick/entertainment-app"
+                            class="font-bold border-b border-custom-blue" target="_blank"><i
+                                class="fa-solid fa-code mr-2"></i>Code</a>
+                        <a href="https://tlbodrick-entertainment-app.netlify.app/"
+                            class="font-bold border-b border-custom-blue" target="_blank"><i
+                                class="fa-solid fa-check mr-2"></i>Demo</a>
+                    </div>
+                </div>
+
+                <!-- project -->
+                <div class="w-2/5 shrink-0">
+                    <img src="/assets/ip-tracker.png" alt="">
+                    <h3 class="text-2xl font-bold text-custom-blue mt-4">IP Address Tracker</h3>
+                    <div class="skills mt-2">
+                        <span class="p-1 border border-custom-orange rounded text-xs">HTML</span>
+                        <span class="p-1 border border-custom-orange rounded text-xs">CSS</span>
+                        <span class="p-1 border border-custom-orange rounded text-xs">JS</span>
+                        <span class="p-1 border border-custom-orange rounded text-xs">API's</span>
+                    </div>
+                    <p class="mt-4">A website that allows users to search or view their IP address,
+                        location, timezone, and ISP provider. The
+                        location is displayed on an interactive map. Built using IP Geolocation API and
+                        LeafletJS.</p>
+                    <div class="mt-4">
+                        <a href="https://github.com/tlbodrick/ip-address-tracker"
+                            class="font-bold border-b border-custom-blue" target="_blank"><i
+                                class="fa-solid fa-code mr-2"></i>Code</a>
+                        <a href="https://tlbodrick-ip-tracker.netlify.app/"
+                            class="font-bold border-b border-custom-blue" target="_blank"><i
+                                class="fa-solid fa-check mr-2"></i>Demo</a>
+                    </div>
+                </div>
+
+                <!-- project -->
+                <div class="w-2/5 shrink-0 ">
+                    <img src=" /assets/swordle.png" alt="">
+                    <h3 class="text-2xl font-bold text-custom-blue mt-4">Wordle Clone</h3>
+                    <div class="skills mt-2">
+                        <span class="p-1 border border-custom-orange rounded text-xs">HTML</span>
+                        <span class="p-1 border border-custom-orange rounded text-xs">CSS</span>
+                        <span class="p-1 border border-custom-orange rounded text-xs">JS</span>
+                    </div>
+                    <p class="mt-4">This is an infinite Wordle clone built with ES6. Users get six tries to guess a five
+                        letter word. Whether you win or
+                        lose, refresh to play again!</p>
+                    <div class="mt-4">
+                        <a href="https://github.com/tlbodrick/wordle-clone"
+                            class="font-bold border-b border-custom-blue" target="_blank"><i
+                                class="fa-solid fa-code mr-2"></i>Code</a>
+                        <a href="https://tlbodrick-wordle-clone.netlify.app/"
+                            class="font-bold border-b border-custom-blue" target="_blank"><i
+                                class="fa-solid fa-check mr-2"></i>Demo</a>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+        </div>
+
+
+        <div id="profile" class="mt-36">
+            <div class="flex flex-col md:flex-row items-center">
+                <img src="/assets/self.png" class="h-96 mr-10 mb-10" alt="">
+                <div>
+                    <p class="font-bold text-2xl">Nice to meet you,</p>
+                    <p class="font-bold text-3xl text-custom-blue mt-2">I am Tamera Bodrick</p>
+                    <p class="mt-4">My primary stack is React, Firebase, and Tailwind to build beautiful,
+                        mobile-first,
+                        and
+                        responsive
+                        websites.</p>
+                    <p class="text-custom-orange text-2xl mt-4">Code, Learn, Grow.</p>
+                    <p class="mt-4">I’m a developer with a passion for combining my love for logic puzzles and
+                        problem
+                        solving with creativity and design to create beautiful websites and web applications.</p>
+                    <img src="/assets/signature.png" class="mt-5" alt="">
+                </div>
+            </div>
+            <p class="text-2xl font-bold mt-16">My experiences includes but not limited to...</p>
+            <div class="skills flex flex-wrap gap-2 pt-3">
+                <p class="p-2 border border-custom-orange rounded">HTML</p>
+                <p class="p-2 border border-custom-orange rounded">CSS</p>
+                <p class="p-2 border border-custom-orange rounded">JavaScript</p>
+                <p class="p-2 border border-custom-orange rounded">Reactjs</p>
+                <p class="p-2 border border-custom-orange rounded">Tailwind</p>
+                <p class="p-2 border border-custom-orange rounded">Firebase/Firestore</p>
+                <p class="p-2 border border-custom-orange rounded">Git</p>
+                <p class="p-2 border border-custom-orange rounded">Github</p>
+            </div>
+        </div>
+    </main>
+    <footer class="mb-28">
+        <div id="contact" class="flex flex-col items-center justify-center w-full">
+            <h2 class="font-bold text-4xl mt-28 mb-5">I'm ready to talk..</h2>
+            <form action="https://formsubmit.co/61efdb771a7df451f492571e2c4c6b3b" method="POST" id="contact-form"
+                class="w-full flex flex-col justify-center items-center">
+                <input class="border p-4" type="text" placeholder="Name" name="name">
+                <input class="border p-4" type="email" placeholder="Email" name="email">
+                <textarea class="border p-4" placeholder="Message" name="message"></textarea>
+                <button class="font-bold border-b border-custom-blue">
+                    Send
+                </button>
+            </form>
+        </div>
+    </footer>
+</body>
+
+</html>
